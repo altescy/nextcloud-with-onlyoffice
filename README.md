@@ -5,7 +5,7 @@ Docker configs for nextcloud with onlyoffice.
 
 ### Installation
 
-Fill the following values with `[ ... ]` in `.env` file and run `make` command.
+Fill the following values `[ ... ]` in `.env` file and run `make` command.
 
 ```
 $ git clone https://github.com/altescy/nextcloud-with-onlyoffice
