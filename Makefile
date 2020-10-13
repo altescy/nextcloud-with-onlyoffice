@@ -13,7 +13,7 @@ clean-all:
 clean:
 	$(DOCKER_COMPOSE) down
 
-.PHONY: clean
+.PHONY: build
 build:
 	$(DOCKER_COMPOSE) up -d
 
