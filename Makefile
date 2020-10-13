@@ -26,4 +26,5 @@ onlyoffice:
 	$(DOCKER) exec -u www-data $(NEXTCLOUD_CONTAINER) php occ --no-warnings config:system:set allow_local_remote_servers  --value=true
 
 .PHONY: https
+https:
 	$(DOCKER) exec -u www-data $(NEXTCLOUD_CONTAINER) php occ --no-warnings config:system:set overwriteprotocol  --value=https
